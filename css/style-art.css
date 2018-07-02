@@ -1,0 +1,38 @@
+
+.path{
+	margin: 2em auto 1em;
+	border-bottom: 2px solid  #004873;
+	width: 80%;
+	text-align: left;
+    line-height: 40px;
+    color: #004873;
+}
+
+.art{
+	margin: .5em  auto 5em;
+	width: 80%; 
+	color: #333 !important;
+}
+
+.art-title{
+	font-size: 18px;
+	text-align:center;
+}
+
+.art-detail{
+	margin:.7em 0;
+	text-align:center;
+	font-size: 12px;
+    color: #787878;
+}
+
+.art-conetnt{
+}
+
+.insert-pic1{
+	text-align:center;
+}
+.insert-pic2{
+	display: none;
+}
+

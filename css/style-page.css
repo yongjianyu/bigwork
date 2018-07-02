@@ -1,0 +1,62 @@
+.main-page{
+	width: 100%;
+	margin: 1em auto;
+}
+.topbanner img{
+	width: 100%;
+}
+
+.sidebar{
+	/*width: 100%;*/
+	background-color:#f7f7f7;
+	/*text-align-last: center;*/
+}
+
+.topsidemenu{
+	cursor: pointer;
+	width: 100%;
+	line-height: 3em;
+	font-size: 17px;
+	color: white;
+	background-color: #0a498e;
+}
+.sidemenu{
+	max-height: 15em;
+	width: 100%;
+	transition: max-height .7s ease-out;
+	overflow: hidden;
+}
+.sidemenu li{
+	width: 100%;
+	cursor: pointer;
+	line-height: 3em;
+	background-color:#f7f7f7; 
+	color: #383838;
+	transition: .5s;
+
+}
+.sidemenu li:hover{
+	background-color: #589cc3 !important;
+	color: white !important;
+}
+.sidemenu li a{
+	/*margin-left: 1em;*/
+	color: inherit;
+	font-size: 14px;
+	margin-left: 1em;	
+}
+
+.active{
+	background-color: #589cc3 !important;
+	color: white !important;
+}
+
+
+.page{
+	padding:0 0 4em .5em;
+}
+.page-path{
+	border-bottom: 1px dashed #dedede;
+	color: #004873;
+	font-size: 13px;
+}

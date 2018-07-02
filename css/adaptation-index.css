@@ -1,0 +1,51 @@
+/**
+ * [media description]移动端和低分辨率的适配
+ * @author yongjian yu
+ * @DateTime 2018-06-23T19:40:25+0800
+ * @param    {[type]}                 max-width: 992px         [description]
+ * @return   {[type]}                            [description]
+ */
+@media (max-width: 992px){
+
+	.open{
+		display: block;
+		color: white;
+		font-size:30px;
+		cursor:pointer
+	}
+	.header_two .f-1,
+	.header_two .f-2{
+		display: none;
+	}
+	.header-one{display: none;}
+	.header-tit{display: none;}
+	.nav{display: none;}
+	.slide{height: 10em;}
+	.slide-img{height: 10em;}
+	.slide-img img{height: 10em;}
+
+	.slide-button{display: none;}
+	.main{flex-direction: column;}
+	.word{padding:0; }
+	.content-title{margin-left: 1em;}
+	.date{margin-right: 1em;}
+	.copyright{text-align-last: center;}
+	.logo{display: none;}
+	.chat{display: none;}
+	.fix-footer img{display: none;}
+
+
+
+
+	/**
+	 * article.html
+	 */
+	.insert-pic1{display: none;}
+	.insert-pic2{display: block;width: 100%;}
+
+	/**
+	 * page.html
+	 */
+	.sidebar{display: none;}
+} 
+                    

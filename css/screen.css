@@ -1,0 +1,118 @@
+﻿/**
+ * author:yongjian yu
+ * version:1.0
+ * decription:css for flex
+ */
+
+*{padding: 0;margin: 0;border: 0;}
+a{text-decoration: none;}
+p{
+	text-indent: 2em;
+	line-height: 40px; 
+}
+
+
+.container{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.w-10{width: 10%;}
+.w-20{width: 20%;}
+.w-30{width: 30%;}
+.w-40{width: 40%;}
+.w-50{width: 50%;}
+.w-60{width: 60%;}
+.w-70{width: 70%;}
+.w-80{width: 80%;}
+.w-90{width: 90%;}
+.w-100{width: 100%;}
+
+.h-1{height: 1em;}
+.h-2{height: 2em;}
+.h-3{height: 3em;}
+.h-4{height: 4em;}
+.h-5{height: 5em;}
+.h-6{height: 6em;}
+.h-7{height: 7em;}
+.h-8{height: 8em;}
+.h-9{height: 9em;}
+.h-10{height: 10em;}
+
+
+.bg-red{background-color: red;}
+.bg-blue{background-color: blue;}
+.bg-green{background-color: green;}
+.bg-grey{background-color: green;}
+
+
+.middle{vertical-align: middle;}
+.left{float: left;}
+.right{float: right;}
+
+
+.p-1{padding:1em;}
+.p-2{padding:2em;}
+.p-3{padding:3em;}
+.p-4{padding:4em;}
+.p-5{padding:5em;}
+
+.p-l-1{padding-left: 1em;}
+.p-r-1{padding-right: 1em;}
+.p-l-2{padding-left: 2em;}
+.p-r-2{padding-right: 2em;}
+.p-l-3{padding-left: 3em;}
+.p-r-3{padding-right: 3em;}
+.p-l-4{padding-left: 4em;}
+.p-r-4{padding-right: 4em;}
+.p-l-5{padding-left: 5em;}
+.p-r-5{padding-right: 5em;}
+/**
+ * flex盒子
+ */
+.row{
+	display: flex;
+	width: 100%;
+}
+.row-direction{
+	display: flex;
+	flex-direction:column;
+	width: 100%;
+}
+.f-s-5{flex: .5;}
+.f-1{
+	flex: 1;
+}
+.f-2{
+	flex: 2;
+}
+.f-3{
+	flex: 3;
+}
+.f-4{
+	flex: 4;
+}
+.f-5{
+	flex: 5;
+}
+.f-6{
+	flex: 6;
+}
+.f-7{
+	flex: 7;
+}
+.f-8{
+	flex: 8;
+}
+.f-9{
+	flex: 9;
+}
+.f-10{
+	flex: 10;
+}
+.f-11{
+	flex: 11;
+}
+.f-12{
+	flex: 12;
+}
